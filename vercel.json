@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/next.js",
+      "config": {
+        "distDir": "frontend/.next"
+      }
+    }
+  ]
+}
